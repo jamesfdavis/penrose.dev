@@ -60,30 +60,4 @@
 	<button class="js-change-theme focus:outline-none">🌙</button>
 </div> -->
 <style>
-	a:not(.nav) {
-		font-weight: bold;
-		text-decoration: underline;
-		padding: 2px;
-	}
-
-	a:hover {
-		color: #000;
-		font-weight: bold;
-		text-decoration: none;
-		padding-bottom: 2px;
-		background: linear-gradient(to right, #333, #333);
-		background-repeat: repeat-x;
-		background-size: 100% 2px;
-		background-position: 50% 95%;
-		-webkit-transition: color 150ms ease-in-out;
-		-moz-transition: color 150ms ease-in-out;
-		-ms-transition: color 150ms ease-in-out;
-		-o-transition: color 150ms ease-in-out;
-		transition: color 150ms ease-in-out;
-	}
-
-	a:focus {
-		outline: none;
-		background: #efefef;
-	}
 </style>
