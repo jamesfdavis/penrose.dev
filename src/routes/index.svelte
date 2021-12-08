@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Penrose Development - Twin Falls, ID</title>
+	<title>Penrose Software Development - Twin Falls, Idaho</title>
 </svelte:head>
 <!-- Posts -->
 <h3 class="font-bold my-12">Post Title</h3>
@@ -14,7 +14,7 @@
 	At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat
 	ac.
 </p>
-
+<!-- 
 <p class="mb-8">
 	Lorem ipsum dolor sit amet, consectetur <a href="#main">random link</a> adipiscing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus
@@ -50,4 +50,4 @@
 	tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id.
 	At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat
 	ac.
-</p>
+</p> -->

@@ -6,9 +6,11 @@ const config = {
 	},
 
 	theme: {
-		extend: {}
+		extend: {},
+		fontFamily: {
+			'body': ["Georgia", 'Times New Roman', "Times", "serif"]
+		}
 	},
-
 	plugins: []
 };
 

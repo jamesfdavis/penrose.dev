@@ -3,9 +3,8 @@
 </script>
 
 <!-- Root Node  -->
-<div class="text-black font-mono Courier New">
+<div class="font-body text-xl md:text-lg lg:text-lg">
 	<!-- Main Body -->
-
 	<div class="p-6 sm:p-10 md:p-16 flex flex-wrap">
 		<!-- Left Column -->
 		<div class="w-full md:w-3/4 order-1 md:order-2">

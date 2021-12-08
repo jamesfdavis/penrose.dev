@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-body {
+  color: #3B424B;
+}
+
 a:not(.nav) {
 		font-weight: bold;
 		text-decoration: underline;
