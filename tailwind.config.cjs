@@ -8,7 +8,8 @@ const config = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			'body': ["Georgia", 'Times New Roman', "Times", "serif"]
+			'copy': ['Georgia', 'Times New Roman', "Times", "serif"],
+			'design': ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'sans-serif']
 		}
 	},
 	plugins: []
