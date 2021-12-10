@@ -5,11 +5,11 @@
 	import Title from '../content/title.svelte';
 	import Copy from '../content/copy.svelte';
 	import Phone from '../content/phone.svelte';
-	import data from '$lib/default.json';
+	import data from '$lib/privacy.json';
 </script>
 
 <svelte:head>
-	<title>Penrose Development - Twin Falls, Idaho</title>
+	<title>Penrose Development - Privacy Policy</title>
 </svelte:head>
 
 <!-- Left Column -->
@@ -26,4 +26,14 @@
 <!-- Services (Nav) -->
 <Services />
 <!-- Blurb -->
-<Lower />
+<Lower>
+	<div class="w-full md:w-3/4 order-2 md:order-4">
+		<div class="max-w-lg leading-loose tracking-tight">
+			<p class="font-bold my-4 md:my-4 font-design">Contact Us</p>
+			<ul class="flex flex-wrap justify-between flex-row md:flex-col font-copy">
+				<li>Twin Falls, Idaho</li>
+				<li><Phone /></li>
+			</ul>
+		</div>
+	</div>
+</Lower>
