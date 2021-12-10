@@ -23,7 +23,9 @@
 		"dracula-theme.theme-dracula",
 		"orta.vscode-jest",
 		"svelte.svelte-vscode",
-		"fivethree.vscode-svelte-snippets"
+		"fivethree.vscode-svelte-snippets",
+		"stevencl.adddoccomments",
+		"irongeek.vscode-env"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

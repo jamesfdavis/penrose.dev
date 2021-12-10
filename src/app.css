@@ -5,20 +5,25 @@
 
 .font-design {
   color: #111111;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+
 }
 
 .font-copy {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 400;
   color: #3B424B;
 }
 
 a:not(.nav) {
-		color : #3498DB;
-		text-decoration: underline;
-		padding: 2px;
-	}
+  color : #3740ff;
+  text-decoration: underline;
+  padding: 2px;
+}
 
-
-a:focus {
+a:focus:not(.nav) {
   outline: none;
   background: #efefef;
 }
