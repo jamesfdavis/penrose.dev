@@ -1,36 +1,34 @@
 {
-	"name": "penrose.dev",
-	"version": "0.0.1",
-	"scripts": {
-		"gen": "node gen/run.js",
-		"dev": "npm run gen && svelte-kit dev",
-		"build": "svelte-kit build",
-		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.21",
-		"@sveltejs/kit": "next",
-		"autoprefixer": "^10.3.7",
-		"cssnano": "^5.0.8",
-		"eslint": "^7.32.0",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-svelte3": "^3.2.1",
-		"markdown-to-json": "^0.5.4",
-		"mustache": "^4.2.0",
-		"postcss": "^8.3.9",
-		"postcss-load-config": "^3.1.0",
-		"prettier": "^2.4.1",
-		"prettier-plugin-svelte": "^2.4.0",
-		"svelte": "^3.44.0",
-		"svelte-check": "^2.2.6",
-		"svelte-preprocess": "^4.9.8",
-		"tailwindcss": "^3.0.0",
-		"showdown": "^1.9.1"
-	},
-	"type": "module"
+  "name": "penrose.dev",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "test": "playwright test",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.21.0",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.1",
+    "tslib": "^2.3.1",
+    "typescript": "~4.6.2"
+  },
+  "type": "module"
 }
