@@ -1,30 +1,16 @@
-<div>
-	<h1 class="text-3xl text-black font-semibold py-4">Why I keep a research blog</h1>
-	<h3 class="font-semibold text-black py-3">
-		Writing has made me a better thinker and researcher. I expand on my reasons why.
-	</h3>
-	<h6 class="uppercase font-semibold text-xs py-2 text-gray-500">published</h6>
-	<h6 class="text-xs py-2">12 January 2022</h6>
-	<hr class="py-6" />
-
-	<article class="prose">
-		<h1>Garlic bread with cheese: What the science tells us</h1>
-		<p>
-			For years parents have espoused the health benefits of eating garlic bread with cheese to
-			their children, with the food earning such an iconic status in our culture that kids will
-			often dress up as warm, cheesy loaf for Halloween.
-		</p>
-		<p>
-			But a recent study shows that the celebrated appetizer may be linked to a series of rabies
-			cases springing up around the country.
-		</p>
-
-		<blockquote>Some quote</blockquote>
-
-		<ol>
-			<li>blah</li>
-		</ol>
-
-		<!-- ... -->
-	</article>
+<div class="p-20">
+	<h2 class="font-semibold text-black pt-3 text-xl">James F. Davis</h2>
+	<h2 class=" text-black mb-3">Penrose Development</h2>
+	<ul id="links" class="list-none prose pl-0 text-sm">
+		<li class="m-0 pl-0">
+			<a href="/blog">Blog</a>
+		</li>
+		<li class="m-0 pl-0">
+			<a href="/blog">Projects</a>
+		</li>
+		<li class="m-0 pl-0">
+			<a href="http://www.github.com/jamesfdavis" target="_blank">Code</a>
+		</li>
+		<li class="mt-5 pl-0">jim [at] penrose.dev</li>
+	</ul>
 </div>
