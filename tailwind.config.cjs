@@ -3,6 +3,7 @@ const { transpileModule } = require("typescript");
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    fontFamily: { 'sans': ['Roboto', 'Arial', 'sans-serif'] },
     container: {
       center: true
     },
