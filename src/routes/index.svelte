@@ -3,10 +3,10 @@
 	<h2 class=" text-black mb-3">Penrose Development</h2>
 	<ul id="links" class="list-none prose pl-0 text-sm">
 		<li class="m-0 pl-0">
-			<a href="/blog">Blog</a>
+			<a href="/posts">Blog</a>
 		</li>
 		<li class="m-0 pl-0">
-			<a href="/blog">Projects</a>
+			<a href="/">Projects</a>
 		</li>
 		<li class="m-0 pl-0">
 			<a href="http://www.github.com/jamesfdavis" target="_blank">Code</a>
