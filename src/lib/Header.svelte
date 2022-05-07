@@ -30,7 +30,7 @@
 				</button>
 			</div>
 			<nav class="hidden md:flex space-x-10">
-				<a href="/posts" class="text-base font-medium text-gray-500 hover:text-gray-900"> Blog </a>
+				<a href="/blog" class="text-base font-medium text-gray-500 hover:text-gray-900"> Blog </a>
 				<a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Projects </a>
 				<a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Docs </a>
 			</nav>
@@ -47,7 +47,7 @@
       From: "opacity-100 scale-100"
       To: "opacity-0 scale-95"
   		-->
-	<div class=" absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+	<div class="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
 		<div class="rounded-lg shadow-lg ring-opacity-5 bg-white divide-y-2 divide-gray-50">
 			<div class="pt-5 pb-6 px-5">
 				<div class="flex items-center justify-between">
@@ -80,7 +80,9 @@
 				</div>
 				<div class="mt-6">
 					<nav class="grid gap-y-8">
-						<a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Blog </a>
+						<a href="/blog" class="text-base font-medium text-gray-500 hover:text-gray-900">
+							Blog
+						</a>
 						<a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">
 							Projects
 						</a>

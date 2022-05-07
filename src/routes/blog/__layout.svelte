@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../../app.css';
-	import GoogleAnalytics from './../../components/GoogleAnalytics.svelte';
-	import Header from './../../components/Header.svelte';
+	import GoogleAnalytics from '$lib/GoogleAnalytics.svelte';
+	import Header from '$lib/Header.svelte';
 
 	let scale: number = 2;
 </script>

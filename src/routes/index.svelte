@@ -3,7 +3,7 @@
 	<h2 class=" text-black mb-3">Penrose Development</h2>
 	<ul id="links" class="list-none prose pl-0 text-sm">
 		<li class="m-0 pl-0">
-			<a href="/posts">Blog</a>
+			<a href="/blog">Blog</a>
 		</li>
 		<li class="m-0 pl-0">
 			<a href="/">Projects</a>
