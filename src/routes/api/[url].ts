@@ -8,7 +8,5 @@ export async function get({ params }) {
   const post = await convertMarkdown(`./src/posts/${url}.md`);
   const body = JSON.stringify(post);
 
-  console.log(body)
-
   return { body: body }
 }
