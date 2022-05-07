@@ -1,15 +1,14 @@
+const { transpileModule } = require("typescript");
+
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    container: {
+      center: true
+    },
     extend: {
-      colors: {
-        transparent: 'transparent',
-        current: 'currentColor',
-        'white': '#ffffff',
-        'fresh': '#4ABDAC',
-        'vermillion': '#FC4A1A',
-        'sunshine': '#F7B733',
-        'clean': '#DFDCE3',
+      colors: { // https://www.canva.com/colors/color-palettes/off-the-coast
+
       },
     },
   },
