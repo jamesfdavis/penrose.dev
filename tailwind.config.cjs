@@ -2,13 +2,14 @@ const { transpileModule } = require("typescript");
 
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
+  output: "build",
   theme: {
     fontFamily: { 'sans': ['-apple-system', 'Helvetica', 'arial', 'sans-serif'] },
     container: {
       center: true
     },
     extend: {
-      colors: { // https://www.canva.com/colors/color-palettes/off-the-coast
+      colors: {
         black: 'rgba(0, 0, 0, 0.8)'
       },
       typography: (theme) => ({
