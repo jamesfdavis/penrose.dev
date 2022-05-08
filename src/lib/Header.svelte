@@ -1,3 +1,11 @@
+<script lang="ts">
+	let toggle: boolean = true;
+
+	function swapDrawer(newVal: boolean) {
+		toggle = newVal;
+	}
+</script>
+
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6">
@@ -13,6 +21,7 @@
 					type="button"
 					class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 					aria-expanded="false"
+					on:click={() => swapDrawer(!toggle)}
 				>
 					<span class="sr-only">Open menu</span>
 					<!-- Heroicon name: outline/menu -->
@@ -47,7 +56,10 @@
       From: "opacity-100 scale-100"
       To: "opacity-0 scale-95"
   		-->
-	<div class="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+	<div
+		class:hidden={toggle}
+		class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+	>
 		<div class="rounded-lg shadow-lg ring-opacity-5 bg-white divide-y-2 divide-gray-50">
 			<div class="pt-5 pb-6 px-5">
 				<div class="flex items-center justify-between">
@@ -60,6 +72,7 @@
 					<div class="-mr-2">
 						<button
 							type="button"
+							on:click={() => swapDrawer(!toggle)}
 							class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 						>
 							<span class="sr-only">Close menu</span>

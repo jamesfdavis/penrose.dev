@@ -77,7 +77,7 @@ const config = {
 	// See the available options at https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/config.md
 
 	// options passed to svelte.preprocess (https://svelte.dev/docs#compile-time-svelte-preprocess)
-	preprocess: null
+	// preprocess: null
 };
 
 export default config;

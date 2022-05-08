@@ -9,7 +9,7 @@
 		<Header />
 	</header>
 
-	<main class="container flex-grow px-8 max-w-3xl">
+	<main class="container flex-grow px-2 max-w-3xl pt-6">
 		<div class="container mx-auto min-w-full">
 			<slot />
 		</div>

@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Penrose Development</title>
+</svelte:head>
+
 <div class="md:p-20 pt-20 pl-2">
 	<h2 class="font-semibold text-black pt-3 text-xl">James F. Davis</h2>
 	<h2 class=" text-black mb-3">Penrose Development</h2>
