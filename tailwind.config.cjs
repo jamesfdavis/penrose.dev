@@ -2,7 +2,7 @@ const { transpileModule } = require("typescript");
 
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
-  output: "build",
+  output: ".svelte-kit",
   theme: {
     fontFamily: { 'sans': ['-apple-system', 'Helvetica', 'arial', 'sans-serif'] },
     container: {

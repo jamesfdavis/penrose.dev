@@ -1,5 +1,5 @@
 {
-	"extends": "./build/tsconfig.json",
+	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
 		"module": "es2020",
 		"strict": true,

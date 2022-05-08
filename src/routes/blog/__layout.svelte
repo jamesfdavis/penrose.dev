@@ -2,8 +2,6 @@
 	import '../../app.css';
 	import GoogleAnalytics from '$lib/GoogleAnalytics.svelte';
 	import Header from '$lib/Header.svelte';
-
-	let scale: number = 2;
 </script>
 
 <div class="flex flex-col w-full h-screen">
