@@ -6,6 +6,7 @@
 <svelte:head>
 	<title>Lorem Ipsum Test</title>
 </svelte:head>
+
 <Title
 	title="Lorem Ipusm"
 	url="/blog/post"
